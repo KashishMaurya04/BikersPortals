@@ -8,7 +8,6 @@ import java.net.URL;
 public class ApiClient {
     public static String fetchBikeInfo(String model) {
         try {
-            // Replace with the actual API URL
             URL url = new URL("https://api.example.com/bikes?model=" + model);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
