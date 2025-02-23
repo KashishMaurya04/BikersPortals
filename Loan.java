@@ -45,8 +45,8 @@ public class Loan extends JPanel {
     }
 
     private double calculateLoanAmount(String bikeName) {
-        // Replace with actual logic to determine loan amount based on bike name
-        return 100000; // Example fixed amount
+    
+        return 100000; 
     }
 
     private double calculateMonthlyPayment(double loanAmount, int loanYears) {
